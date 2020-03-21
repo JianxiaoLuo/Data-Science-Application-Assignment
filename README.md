@@ -54,7 +54,7 @@ The program is to do the Doc2Vec transformation and clustering. It contains seve
 `def kappa(pred_label_kmeans, pred_label_em, pred_label_agg, true_labels)` and `def silhouette(infered_vectors_list, pred_label_kmeans, pred_label_em, pred_label_agg)` are to do the Kappa score and Silhouette score evaluation.
 The last code cell is the main part of the program. It calls those functions and does visualization. 
  
-###How to run
+### How to run
 It is the environment on Colab, so you just need to run the code cells in sequence. After you run the last code cell, you will see the result. Named as ‘Part C’.’
 
 
